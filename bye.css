@@ -1,0 +1,39 @@
+.header {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding: 22px;
+  text-align: center;
+  background: #000000;
+  color: white;
+  font-size: 30px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(33, 6, 130);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+  
